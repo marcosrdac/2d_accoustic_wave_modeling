@@ -1,3 +1,8 @@
+# Module Created for Accoustic Seismic Modelling
+# Author: Marcos Reinan de Assis Conceição
+# e-mail: marcosrdac@gmail.com
+
+
 from time import time
 start = time()
 import numpy as np
@@ -9,6 +14,7 @@ from  os import system
 from velocities import mean_V
 end = time()
 print('Bibs imported; time spent:', end-start)
+
 
 amst0 = 1e-14
 
